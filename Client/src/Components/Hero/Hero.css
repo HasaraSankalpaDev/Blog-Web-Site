@@ -1,0 +1,62 @@
+.hero-section{
+    width: 100% !important;
+    height: 100vh !important;
+    background: rgba(0, 0, 0, 0.4) url("https://firefox-settings-attachments.cdn.mozilla.net/main-workspace/newtab-wallpapers-v2/af6073d2-cbb2-4e28-b642-3327d14808b2.avif") no-repeat center center;
+    background-blend-mode: multiply !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    color: #fff !important;
+}
+
+.hero-heading{
+    /* font-family: "Josefin Sans", sans-serif; */
+    margin-top: 10px;
+    font-size: 55px !important;
+}
+
+/* Responsive */
+@media (max-width: 1205px) {
+    .hero-heading{
+        font-size: 45px !important;
+    }
+    .hero-text{
+        font-size: 17px !important;
+    }
+    .btn-outline-danger{
+        padding: 10px 15px;
+    }
+}
+@media (max-width: 870px) {
+    .hero-heading{
+        font-size: 35px !important;
+    }
+    .hero-text{
+        font-size: 16px !important;
+    }
+    .btn-outline-danger{
+        padding: 8px 35px !important;
+    }
+}
+@media (max-width: 586px) {
+    .hero-heading{
+        font-size: 28px !important;
+    }
+    .hero-text{
+        font-size: 15px !important;
+    }
+    .btn-outline-danger{
+        padding: 8px 35px !important;
+    }
+}
+@media (max-width: 400px) {
+    .hero-heading{
+        font-size: 24px !important;
+    }
+    .hero-text{
+        font-size: 15px !important;
+    }
+    .btn-outline-danger{
+        padding: 6px 28px !important;
+    }
+}
