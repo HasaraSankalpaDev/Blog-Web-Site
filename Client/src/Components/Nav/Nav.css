@@ -1,0 +1,11 @@
+.navbar{
+    color: #fff !important;
+}
+.nav-link:hover{
+    color: #dc1a47 !important;
+}
+.navbar-toggler-icon,.navbar-toggle{
+    background-color: #dc1a47 !important;
+    color: #fff !important;
+    
+}
